@@ -1,0 +1,19 @@
+{
+  "name": "invoicing-apps-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/_index.ts",
+  "private": true,
+  "scripts": {
+    "create": "clasp login && clasp create --type standalone --rootDir src && clasp push && clasp open",
+    "setup": "node setup.js && npm run create"
+  },
+  "author": "Pavlo Mykhalov <pavlo@mykhalov.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.14",
+    "inquirer": "^6.5.2",
+    "typescript": "^3.9.5"
+  }
+}

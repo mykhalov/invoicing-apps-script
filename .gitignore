@@ -1,0 +1,4 @@
+.clasp.json
+node_modules
+src/appsscript.json
+src/config.ts
